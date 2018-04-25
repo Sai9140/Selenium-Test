@@ -23,6 +23,7 @@ public class NewTest2 {
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.name("identifier")).sendKeys("sai.trichyking");
+                driver.findElement(By.id("identifierNext")).click();
 		driver.findElement(By.name("password")).sendKeys("sri");
 		driver.findElement(By.name("login")).click();
 		/*String title=driver.getTitle();
